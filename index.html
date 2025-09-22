@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Title -->
+  <title>Pobu Games - Mobil Oyun Geliştirme Stüdyosu</title>
+  
+  <!-- SEO Açıklaması -->
+  <meta name="description" content="Pobu Games, yenilikçi ve eğlenceli mobil oyunlar geliştiren bağımsız bir stüdyodur. Misyonumuz: büyük hayalleri gerçeğe dönüştürmek. Vizyonumuz: global oyun pazarında ses getiren projeler üretmek.">
+  
+  <!-- Anahtar Kelimeler -->
+  <meta name="keywords" content="Pobu Games, mobil oyun, bağımsız oyun stüdyosu, running game, endless runner, indie game studio, oyun geliştirme">
+  
+  <!-- Yazar -->
+  <meta name="author" content="Pobu Games">
+  
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="#hero">
+        <img src="assets/logobeyaz.png" alt="Pobu Games Logo">
+      </a>
+    </div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#hero">Ana Sayfa</a></li>
+        <li><a href="#about">Hakkımızda</a></li>
+        <li><a href="#mission-vision">Misyon & Vizyon</a></li>
+        <li><a href="#games">Oyunlarımız</a></li>
+        <li><a href="#contact">İletişim</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Your Run, Your World</h1>
+      <p>Pobu Games, mobil oyun geliştirme stüdyosu.</p>
+      <a href="#about" class="btn">Bizi Keşfet</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>Hakkımızda</h2>
+    <p>Pobu Games olarak, eğlenceyi teknolojiyle buluşturan yenilikçi mobil oyunlar geliştiriyoruz. Amacımız, dünya çapında milyonlarca oyuncuya keyifli deneyimler sunmak.</p>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section id="mission-vision">
+    <h2>Misyon & Vizyon</h2>
+    <div class="mission-vision">
+      <h3>Misyonumuz</h3>
+      <p>Pobu Games’in misyonu, oyunculara yenilikçi ve eğlenceli mobil oyun deneyimleri sunmak; sınırlı imkânlarla bile büyük hayallerin gerçeğe dönüşebileceğini göstermek.</p>
+
+      <h3>Vizyonumuz</h3>
+      <p>Vizyonumuz, bağımsız oyun geliştirme alanında öncü bir marka haline gelerek, global oyun pazarında ses getiren projeler üretmektir.</p>
+    </div>
+  </section>
+
+  <!-- Games -->
+  <section id="games">
+    <h2>Oyunlarımız</h2>
+    <div class="games-grid">
+      <!-- Running oyunu -->
+      <div class="game-card">
+        <img src="assets/running-banner.png" alt="Running">
+        <h3>Running</h3>
+        <p>Yeni nesil endless runner deneyimi. Reflexlerini test et!</p>
+      </div>
+
+      <!-- Yakında -->
+      <div class="game-card placeholder">
+        <img src="assets/loading.png" alt="Yakında">
+        <h3>Yakında...</h3>
+        <p>Yeni projeler için bizi takipte kalın.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>İletişim</h2>
+    <p>Bize ulaşmak için aşağıdaki formu doldurabilirsiniz.</p>
+    <form action="https://formspree.io/f/xwpreldl" method="POST">
+      <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+      <input type="email" name="email" placeholder="E-posta" required>
+      <textarea name="message" placeholder="Mesajınız" required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Pobu Games. Tüm Hakları Saklıdır.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
